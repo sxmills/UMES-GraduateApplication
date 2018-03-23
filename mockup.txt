@@ -1,0 +1,30 @@
+create account:
+email (will be username and need to be confirmed from link sent to email)
+confirm email
+password
+confirm pass
+First
+Middle
+Last
+DOB
+
+login:
+email
+pass
+
+Apply:
+Name Prefix		DROP	n/a	Required	
+First Name		text	alnu	Required
+Preferred First		text	alnu	Not Required
+Middle Name		text	alnu	Not Required
+Last Name 		text	alnu	Required
+Name Suffix		text	alnu	Not Required
+Initials		text	alnu	Not Required
+Gender			Radio	n/a	Required
+Date of Birth		text	num	Required	text field will have slashes already placed into position. user will fill in spaces and cursor will move past slashes.
+
+Address			text	alnu	Required
+Address Line 2		text	alnu	Not Required
+City			text	alnu	Required
+State			drop	n/a	Required
+Zip			text	num	Required
